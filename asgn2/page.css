@@ -1,8 +1,8 @@
 .homepage{
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:'Bungee Hairline';
     font-size: 1vw;
     width:100%;
-    height:120%;
+    height:100%;
     margin:0;
     background-color:black;
 }
@@ -11,13 +11,14 @@
 #banner{
   
     width:100% ;
-    height:200px;
+    height:40%;
     align-content: center;
     margin:0;
     background: black;
     background-image: url("/assets/banner_photo.jpg");
     background-repeat: round;
     background-position-x:100%;
+    background-position-y:100%;
     background-size:60% 100%;
     color: white;
     
@@ -27,57 +28,56 @@
 }
 #banner h1{
     text-align: center;
-    margin-top:4%;
-    margin-bottom: 0;
-    font-size:6vw;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top:4%;
+    margin:0;
+    font-size:4vw;
+    font-family:'Bungee Hairline';
     
 }
 #banner p{
     text-align:center;
-   font-style: italic;
     margin-bottom: 0;
     font-size:2vw;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family:  'Bungee Hairline';
     
 }
 
 #navigator{
+    float:left;
     top:0;
-    margin-bottom:20%;
+    text-align:center;
     position:fixed;
     z-index: 600;
-    text-align: left;
     margin:0;
-    margin-top:2%;
+    padding-top:1%;
     width: 100%;
-    height: 2%;
+  
     opacity:0.9; 
 }
 #navigator a{
+    
     width:auto;
     height: auto;
     text-decoration: none;
-    border:1px solid grey;
+    border:1px solid black;
     border-radius: 6%;
     padding:0.3%;
-   
-    color: black;
-    background-color:white;
-    opacity:0.6;
+    color: white;
+    background-color:black;
+    
     font-size:1.4vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
 }
 .main_homepage{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
     margin:0;
-    background-image: url(assets/background_homepage.jpg);
+    background-image: url(assets/about_background.jpg);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y:50%;
-    background-size:100% 100%;
+    background-size:160% 160%;
     width:100%;
-    height:100%;
+    height:auto;
     background-color:#BDE3E6;
 }
 #vision #visiontitle p{
@@ -90,23 +90,24 @@
     width:100%;
     height:25%;
     background-color: black;
-    opacity:0.5;
-    border: 0.2vw solid white;
-    border-radius: 0.7vw;
-    color: white;
+   
+    border-top: 0.2vw solid white;
+    border-bottom: 0.2vw solid white;
+    color: rosybrown;
     text-align: left;
     margin:0;
-    margin-bottom:1%;
+    padding:2%;
+  
     
     
 }
 #vision p{
     
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style:italic;
+    font-family: 'Rokkitt', serif,'Bungee Hairline', cursive,'Poiret One';
     font-size: 1.5vw;
     text-align:center;
+    font-weight:  semibold;
 }
 
 #gallery{
@@ -115,8 +116,8 @@
     height:75%;
     background-color:black;
     opacity:0.8;
-    border: 0.2vw solid black;
-    border-radius: 0.7vw;
+    border-top: 0.2vw solid white;
+    border-bottom: 0.2vw solid white;
     margin:0;
     margin-bottom:2%;
 }
@@ -129,7 +130,7 @@
     height:25%;
 }
 #gallery h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Bungee Hairline', cursive,'Poiret One', cursive;
     font-size:2vw;
     text-align: center;
     width:100%;
@@ -144,18 +145,18 @@
     opacity:sodid;
 }
 .testimonials{
-    
+    margin:auto;
     border-top: white;
     align-content: center;
     width:100%;
-    height:50%;
-    background-color:white;
-    opacity: 0.8;
+    height:auto;
     float:left;
+    background-color:rosybrown;
+    opacity:0.9;
 
 }
 .testmonial_img{
-    
+    margin-left:20%;
     float:left;
     border-radius:100%;
     width:15%;
@@ -163,12 +164,11 @@
     
 }
 .testi{
-    
-   margin-left:30%;
+   color:black;
+   margin-left:10%;
    border-color: black;
    float:left;
     width:45%;
-    height:50%;
     margin:2%;
 }
 
@@ -180,6 +180,7 @@ opacity:0.9;
 }
 
 .about-title{
+height:10%;
 border-top:0.1vw solid white;
 border-bottom: 0.1vw solid white;
 margin:0;
@@ -187,47 +188,105 @@ padding-top: 1%;
 padding-bottom:1%;
 width:100%;
 color:white;
-
 text-align: center;
+margin-top:1%;
 }
 
 .bio-content{
-    width:100%;
-    background-color:rgb(3, 1, 1);
+    height:48%;
+    margin:0;
+    width:100vw;
+    background-image: url(/assets/about_background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y:50%;
+    background-size:100% 100%;
+}
+.bio-content:after {
+    content: "";
+    display: table;
+    clear: both;
+   
     
     
+}
+#seperate{
+    background-color:black;
+    margin:0;
+    width:0.1vw;
+}
+#name{
+text-align:center;
+font-size:3vw;
+padding-top:10%;
+color:white;
+text-shadow: white;
+font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+font-weight:bold; 
 }
 .bio{
-    background-color: rosybrown;
     margin:0;
     align-content: center;
-    width:49%;
-    height:40%;
     float:left;
-    border-right: 0.1vw solid white;
-    
+    width: 49vw;
+    height: 50vw;
 }
-.photo{
-        float: left;
-        background-color: rosybrown;
-        margin:0;
-        align-content: center;
-        width:49%;
-        height:40%;
-        border-right: 0.1vw solid white;
-        
-    
+@media only screen and (max-width: 600px)  {
+    #banner{
+        height:20%;  
+    }
+    .main_homepage{height:100%;}
+    .homepage{height:100%;}
+    .about-title{
+        height:auto;
+        padding-bottom:1%;
+        margin-bottom:1vw;
+        }
+    #text-bio {
+        height:auto;
+        padding:5%;
+    }
+    #text-bio p{
+        height:auto;
+        font-size:4vw;
+        padding:1%;
+    }
+    .bio{
+    margin-bottom:auto;
+    height:20%;
+    margin-top:1%;  
+    width: 100%;
+    float:none;}
+}
+#text-bio{
+    color:white;
+    font-size:1.5vw;
+    text-align:left;
+    padding:20%;
+    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+
+}
+#text-bio p{
+    padding: 10%;
+    background-color:black;
+    opacity:0.7;
 }
 
 .bio img{
-    margin-left:20%;
-    width:45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15%;
+    border-color:black;
+    width:50%;
+ 
+     
 }
 .homepage_about{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
      font-size: 1vw;
      width:100%;
-     height:100%;
+     height:auto;
      margin:0;
      background-color:black;
  }
@@ -256,10 +315,113 @@ text-align: center;
     outline: none;
      
  }
+
+     .fab{
+        padding-bottom: 0.2%;
+        padding-top:0.2%;
+        padding-left:0.2%;
+        padding-right:0.2%;
+        font-size: 100%;
+        width:3%;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        border:0.1vw solid white;
+     }
+     #up{
+        padding:0.4%;
+        font-size: 60%;
+        width: 3%;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+       
+
+     }
+     .footer{
+         align-content: center;
+         text-align:center;
+         padding-top:3%;
+     }
+     #top{
+         align-content: right;
+         text-align: right;
+     }
+
+  
  .main_contact h1{
-     padding-top:1%;
-     padding-bottom:1%;
-    border-top:0.1vw solid white; 
-    border-bottom:0.1vw solid white;
+    height:10%;
+border-top:0.1vw solid white;
+border-bottom: 0.1vw solid white;
+margin:0;
+padding-top: 1%;
+padding-bottom:1%;
+width:100%;
+color:white;
+text-align: center;
+margin-top:1%;
+    }
+     .cont-content{
+        height:48%;
+        margin:0;
+        width:100vw;
+        background-image: url(/assets/about_background.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y:50%;
+        background-size:100% 100%;
+    }
+    .cont-content:after {
+        content: "";
+        display: table;
+        clear: both;
+       
+        
+        
+    }
+    #seperate-cont{
+        background-color:black;
+        margin:0;
+        width:0.1vw;
+    }
+    .message-title{
+    text-align:center;
+    font-size:2vw;
+    padding-top:10%;
     color:white;
-     text-align: center;}
+    text-shadow: white;
+    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+    font-weight:bold; 
+    }
+    .cont{
+        
+        margin:0;
+        align-content: center;
+        float:left;
+        width: 49vw;
+        height: 50vw;
+    }
+    #cont-address{ 
+       
+        font-size:2vw;
+        margin-left:10%;
+        text-align:center;
+        width:80%;
+        background-color:black;
+        color:white;
+        align-content:center;
+        height:70%;
+    }
+    #cont-form{
+        height:70%;
+        margin-left:10%;
+        text-align:center;
+        width:80%;
+        background-color:black;
+        color:white;
+        align-content:center;
+    }
+    .textarea{
+        width:80%;
+        height:20%;
+    }
