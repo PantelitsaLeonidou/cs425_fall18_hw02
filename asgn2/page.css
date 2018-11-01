@@ -1,202 +1,154 @@
-.homepage{
-   font-family:'Bungee Hairline';
-    font-size: 1vw;
-    width:100%;
-    height:100%;
-    margin:0;
-    background-color:black;
+html{
+margin-top:2% ;}
+
+body{
+   
+   margin: 0;
+   max-width:100%;
+   border-bottom:0%; 
+   background-color:black;
 }
 
 
-#banner{
+.banner{
+   position:relative;
+   background: url("assets/try1.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width:100%;  
+   height:30vw;
   
-    width:100% ;
-    height:40%;
-    align-content: center;
-    margin:0;
-    background: black;
-    background-image: url("/assets/banner_photo.jpg");
-    background-repeat: round;
-    background-position-x:100%;
-    background-position-y:100%;
-    background-size:60% 100%;
-    color: white;
-    
-   
-   
-   
-}
-#banner h1{
-    text-align: center;
-    padding-top:4%;
-    margin:0;
-    font-size:4vw;
-    font-family:'Bungee Hairline';
     
 }
-#banner p{
+.title{    
+    width:100%;
+    left:0;
+    top:50%;
     text-align:center;
-    margin-bottom: 0;
-    font-size:2vw;
-    font-family:  'Bungee Hairline';
-    
+    position:absolute;
+    font-weight:bolder;
+    color: white;
+    text-shadow:  2px 2px black;
+    font-size:7vw; 
+    font-family:'Julius Sans One',cursive,Georgia;
 }
 
-#navigator{
-    float:left;
+
+
+.navigator {
     top:0;
-    text-align:center;
-    position:fixed;
-    z-index: 600;
-    margin:0;
-    padding-top:1%;
     width: 100%;
-  
-    opacity:0.9; 
-}
-#navigator a{
-    
-    width:auto;
-    height: auto;
-    text-decoration: none;
-    border:1px solid black;
-    border-radius: 6%;
-    padding:0.3%;
-    color: white;
+    text-align:right;
+    z-index: 600;
+    position:fixed;
+    float:left;
     background-color:black;
     
-    font-size:1.4vw;
-    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+    
+    
 }
-.main_homepage{
-    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
-    margin:0;
-    background-image: url(assets/about_background.jpg);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y:50%;
-    background-size:160% 160%;
-    width:100%;
-    height:auto;
-    background-color:#BDE3E6;
+.navigator a{
+    padding-right:1%;
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-size:1.5vw;
+    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
 }
-#vision #visiontitle p{
-    float: left;
-    text-align: left;
-    }
+
+
 #vision{
-   
-    /*background-image: url("/assets/banner_photo.jpg");*/
+    font-style:italic;
     width:100%;
-    height:25%;
-    background-color: black;
-   
+    padding-bottom:1.5%;
+    padding-top:1.5%;
+    background-color: rgb(207, 188, 188);
     border-top: 0.2vw solid white;
     border-bottom: 0.2vw solid white;
-    color: rosybrown;
-    text-align: left;
-    margin:0;
-    padding:2%;
-  
-    
-    
+    color: black;
+    text-align: justify;
+    font-size: 100%;
 }
-#vision p{
+#vision_par{
+    text-shadow: 1% 1% whitesmoke;
+
+    text-align: justify;
+    font-family: 'Lato',sans-serif,'Bungee Hairline', cursive,Georgia;
     
-    margin:0;
-    font-family: 'Rokkitt', serif,'Bungee Hairline', cursive,'Poiret One';
-    font-size: 1.5vw;
     text-align:center;
     font-weight:  semibold;
 }
 
 #gallery{
-   color:white;
+    background-image: url("assets/about_background.jpg");
+    color:white;
     width:100%;
-    height:75%;
-    background-color:black;
-    opacity:0.8;
     border-top: 0.2vw solid white;
+    text-align: center;
+    font-size:5vw;
     border-bottom: 0.2vw solid white;
-    margin:0;
-    margin-bottom:2%;
+   
 }
 .tablephotos{
     align-content:center;
-    background-color: 0.2vw black;
+    background-color: black;
+    border:1vw solid black
 }
 #gallerytable td{
-    width:25%;
-    height:25%;
+    width:50%;
+   
+    
 }
-#gallery h2{
-    font-family:'Bungee Hairline', cursive,'Poiret One', cursive;
-    font-size:2vw;
-    text-align: center;
+#gallery_h{
+    
+    font-style: bold;
+    text-shadow:20vw 20vw white;
     width:100%;
-   
-   
 
 }
 .galleryphoto{
     width:100%;
-    height:auto;
     margin:0;
-    opacity:sodid;
+    opacity:solid;
+    position:cover;
 }
 .testimonials{
-    margin:auto;
+    text-align:center;
+    margin-top:2%;
     border-top: white;
-    align-content: center;
     width:100%;
-    height:auto;
     float:left;
-    background-color:rosybrown;
+    background-image: url("assets/about_background.jpg");
     opacity:0.9;
+   
 
 }
 .testmonial_img{
-    margin-left:20%;
-    float:left;
+   
+    padding:1%;
     border-radius:100%;
-    width:15%;
-    border-color:black solid;
+    width:5vw;
+    height:5vw;
+    
     
 }
 .testi{
-   color:black;
-   margin-left:10%;
-   border-color: black;
+   
+   font-size:1vw;
+   color:white;
+   border: 0.1vw solid white ;
    float:left;
-    width:45%;
-    margin:2%;
+   width:24.6%;
+   
+   
+ 
 }
 
-.about-main{
-margin:0;
-width:100%;
-background-color: black;
-opacity:0.9;
-}
-
-.about-title{
-height:10%;
-border-top:0.1vw solid white;
-border-bottom: 0.1vw solid white;
-margin:0;
-padding-top: 1%;
-padding-bottom:1%;
-width:100%;
-color:white;
-text-align: center;
-margin-top:1%;
-}
-
-.bio-content{
-    height:48%;
+.bio-content{  
     margin:0;
-    width:100vw;
-    background-image: url(/assets/about_background.jpg);
+    width:100%;
+    background-image: url(assets/about_background.jpg);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y:50%;
@@ -205,69 +157,58 @@ margin-top:1%;
 .bio-content:after {
     content: "";
     display: table;
-    clear: both;
-   
-    
-    
+    clear: both;  
 }
-#seperate{
-    background-color:black;
-    margin:0;
-    width:0.1vw;
-}
+
 #name{
 text-align:center;
 font-size:3vw;
-padding-top:10%;
+padding-top:3vw;
+
 color:white;
 text-shadow: white;
-font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
 font-weight:bold; 
 }
 .bio{
     margin:0;
     align-content: center;
     float:left;
-    width: 49vw;
-    height: 50vw;
+    width:50%;
+    
 }
 @media only screen and (max-width: 600px)  {
-    #banner{
-        height:20%;  
-    }
-    .main_homepage{height:100%;}
-    .homepage{height:100%;}
+   
     .about-title{
         height:auto;
         padding-bottom:1%;
-        margin-bottom:1vw;
+        
         }
-    #text-bio {
-        height:auto;
-        padding:5%;
-    }
+    
     #text-bio p{
-        height:auto;
         font-size:4vw;
-        padding:1%;
+    
     }
     .bio{
-    margin-bottom:auto;
-    height:20%;
+    
     margin-top:1%;  
     width: 100%;
-    float:none;}
+    }
+
+
+
+
 }
 #text-bio{
     color:white;
     font-size:1.5vw;
     text-align:left;
-    padding:20%;
-    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+    padding:5vw;
+    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
 
 }
 #text-bio p{
-    padding: 10%;
+    padding:1vw;
     background-color:black;
     opacity:0.7;
 }
@@ -276,20 +217,13 @@ font-weight:bold;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15%;
+    padding: 5vw;
     border-color:black;
     width:50%;
  
      
 }
-.homepage_about{
-    font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
-     font-size: 1vw;
-     width:100%;
-     height:auto;
-     margin:0;
-     background-color:black;
- }
+
  .formdiv{
      float: left;
      opacity: 0.9;
@@ -327,45 +261,54 @@ font-weight:bold;
         text-decoration: none;
         color:white;
         border:0.1vw solid white;
+        border-radius: 80vw;
      }
      #up{
-        padding:0.4%;
+        border-radius:1vw;
+        padding:1vw;
         font-size: 60%;
-        width: 3%;
+        width: 3vw;
         text-align: center;
         text-decoration: none;
         color:white;
+        position:fixed;
+        z-index:1000;
+        bottom:0;
+        right:0;
+        background-color:black;
+
        
 
      }
      .footer{
+    
          align-content: center;
          text-align:center;
-         padding-top:3%;
+         background-color:black;
+        
      }
-     #top{
-         align-content: right;
-         text-align: right;
-     }
+    
+.main_contact{
+   
+    background-color:black;}
 
-  
- .main_contact h1{
-    height:10%;
-border-top:0.1vw solid white;
-border-bottom: 0.1vw solid white;
-margin:0;
-padding-top: 1%;
-padding-bottom:1%;
-width:100%;
-color:white;
-text-align: center;
-margin-top:1%;
-    }
-     .cont-content{
-        height:48%;
+.main_contact h1{
+    font-family:'Julius Sans One', sans-serif,Georgia;
+    height:5vw;
+    padding-bottom:1vw;
+    padding-top:3vw;
+    border-top:0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    margin:0;
+    width:100%;
+    color:white;
+    text-align: center; 
+    font-size:2vw;
+}
+ .cont-content{
         margin:0;
-        width:100vw;
-        background-image: url(/assets/about_background.jpg);
+        width:100%;
+        background-image: url("assets/about_background.jpg"); 
         background-repeat: no-repeat;
         background-position-x: 50%;
         background-position-y:50%;
@@ -374,54 +317,89 @@ margin-top:1%;
     .cont-content:after {
         content: "";
         display: table;
-        clear: both;
-       
-        
-        
+        clear: both; 
     }
-    #seperate-cont{
-        background-color:black;
-        margin:0;
-        width:0.1vw;
-    }
+   
     .message-title{
+        background-color:black;
+        width:100%;
     text-align:center;
     font-size:2vw;
-    padding-top:10%;
     color:white;
     text-shadow: white;
-    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive;
+    font-family: 'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
     font-weight:bold; 
     }
+
     .cont{
-        
-        margin:0;
+       
+        border-right:0.1vw solid black;
+        position: relative;
+        top:50%;
+        left:0;
+        font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
+        font-size:1.5vw;
         align-content: center;
         float:left;
-        width: 49vw;
-        height: 50vw;
-    }
-    #cont-address{ 
-       
-        font-size:2vw;
-        margin-left:10%;
+        width:49.7%;
         text-align:center;
-        width:80%;
-        background-color:black;
+        
+    }
+    
+@media only screen and (max-width: 600px)  {
+   
+.cont{width:100%;}
+
+ 
+}
+    #cont-address{ 
+        padding-top:5vw;
+        width:100%;
+        border:black;
+        text-align:center;
         color:white;
-        align-content:center;
-        height:70%;
+        font-size:2vw;
+       
     }
     #cont-form{
-        height:70%;
-        margin-left:10%;
+       
+        padding-top:5vw;
+        padding-bottom:5vw;
         text-align:center;
-        width:80%;
-        background-color:black;
+        width:100%;
         color:white;
         align-content:center;
     }
-    .textarea{
+    
+    #textarea{
         width:80%;
-        height:20%;
+       
+    }
+    #fname,#lastname,#meetingdate,#meetinghour{  
+        width: 40%;
+    }
+
+    #fsubject{ 
+        width:80%;
+    }
+    .formelem{
+        height:5vw;
+        font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
+        background-color:black;
+        text-align:center;
+        color:white;
+        font-size:1vw;
+        border:0.2vw solid white;
+        border-radius:0.5vw;
+    }
+    #button{
+        width:50%;
+        font-family:'Julius Sans One', sans-serif,'Bungee Hairline', cursive,'Poiret One', cursive,Georgia;
+        background-color:white;
+        text-align:center;
+        color:black;
+        box-shadow: white;
+        font-size:1vw;
+        border:0.1vw solid white;
+        border-radius:0.5vw;
     }
